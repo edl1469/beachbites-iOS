@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>132043622501-7d73fmsovkkv5tip5g1bhpkai3imdcpu.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.132043622501-7d73fmsovkkv5tip5g1bhpkai3imdcpu</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-7O1tZEPyW6m2045KRjmTSH_FFC_LCFE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>132043622501</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.csulb.beachbites</string>
+	<key>PROJECT_ID</key>
+	<string>beachbites-f8ba1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>beachbites-f8ba1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:132043622501:ios:c8bcdd2582e3bca4</string>
+	<key>DATABASE_URL</key>
+	<string>https://beachbites-f8ba1.firebaseio.com</string>
+</dict>
+</plist>

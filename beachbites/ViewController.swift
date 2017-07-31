@@ -9,17 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    
+    
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let bitesURL = URL(string: "https://its-svcmgmt01.its.csulb.edu/bites/")
+        
+        webView.loadRequest(URLRequest(url: bitesURL!))
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
+    
 }
 

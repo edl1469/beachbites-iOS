@@ -12,6 +12,9 @@
 		3636EDA01F1EAAEF00BB580C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636ED9E1F1EAAEF00BB580C /* Main.storyboard */; };
 		3636EDA21F1EAAEF00BB580C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3636EDA11F1EAAEF00BB580C /* Assets.xcassets */; };
 		3636EDA51F1EAAEF00BB580C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3636EDA31F1EAAEF00BB580C /* LaunchScreen.storyboard */; };
+		3636EDAE1F1EAF6000BB580C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3636EDAD1F1EAF6000BB580C /* GoogleService-Info.plist */; };
+		369771041F2BBC19009BE261 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369771031F2BBC19009BE261 /* Default-568h@2x.png */; };
+		F7378B90C6511E6C4B9BAA1C /* Pods_beachbites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FDC393805207B4E1A969DB1 /* Pods_beachbites.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,12 @@
 		3636EDA11F1EAAEF00BB580C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3636EDA41F1EAAEF00BB580C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3636EDA61F1EAAEF00BB580C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3636EDAC1F1EACAC00BB580C /* beachbites.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beachbites.entitlements; sourceTree = "<group>"; };
+		3636EDAD1F1EAF6000BB580C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		369771031F2BBC19009BE261 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A357A3C3794DAED263746AC /* Pods-beachbites.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beachbites.release.xcconfig"; path = "Pods/Target Support Files/Pods-beachbites/Pods-beachbites.release.xcconfig"; sourceTree = "<group>"; };
+		7FDC393805207B4E1A969DB1 /* Pods_beachbites.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beachbites.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FCF068837BC2E8A8C25E451 /* Pods-beachbites.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beachbites.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beachbites/Pods-beachbites.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7378B90C6511E6C4B9BAA1C /* Pods_beachbites.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,10 +48,15 @@
 		3636ED8E1F1EAAEF00BB580C = {
 			isa = PBXGroup;
 			children = (
+				369771031F2BBC19009BE261 /* Default-568h@2x.png */,
 				3636ED991F1EAAEF00BB580C /* beachbites */,
 				3636ED981F1EAAEF00BB580C /* Products */,
+				8855108B954ED789DC47BC45 /* Pods */,
+				7DC19D88FA0880FC80F2F986 /* Frameworks */,
 			);
+			indentWidth = 0;
 			sourceTree = "<group>";
+			tabWidth = 1;
 		};
 		3636ED981F1EAAEF00BB580C /* Products */ = {
 			isa = PBXGroup;
@@ -54,6 +69,8 @@
 		3636ED991F1EAAEF00BB580C /* beachbites */ = {
 			isa = PBXGroup;
 			children = (
+				3636EDAD1F1EAF6000BB580C /* GoogleService-Info.plist */,
+				3636EDAC1F1EACAC00BB580C /* beachbites.entitlements */,
 				3636ED9A1F1EAAEF00BB580C /* AppDelegate.swift */,
 				3636ED9C1F1EAAEF00BB580C /* ViewController.swift */,
 				3636ED9E1F1EAAEF00BB580C /* Main.storyboard */,
@@ -64,6 +81,23 @@
 			path = beachbites;
 			sourceTree = "<group>";
 		};
+		7DC19D88FA0880FC80F2F986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC393805207B4E1A969DB1 /* Pods_beachbites.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8855108B954ED789DC47BC45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF068837BC2E8A8C25E451 /* Pods-beachbites.debug.xcconfig */,
+				6A357A3C3794DAED263746AC /* Pods-beachbites.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3636EDA91F1EAAEF00BB580C /* Build configuration list for PBXNativeTarget "beachbites" */;
 			buildPhases = (
+				879CFB4EDF20907BE18B7570 /* [CP] Check Pods Manifest.lock */,
 				3636ED931F1EAAEF00BB580C /* Sources */,
 				3636ED941F1EAAEF00BB580C /* Frameworks */,
 				3636ED951F1EAAEF00BB580C /* Resources */,
+				7665841A1DD4626978773E7D /* [CP] Embed Pods Frameworks */,
+				4877F453A00F496772A8CD0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +135,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 24N45J8FZG;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,12 +170,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				3636EDA51F1EAAEF00BB580C /* LaunchScreen.storyboard in Resources */,
+				3636EDAE1F1EAF6000BB580C /* GoogleService-Info.plist in Resources */,
 				3636EDA21F1EAAEF00BB580C /* Assets.xcassets in Resources */,
+				369771041F2BBC19009BE261 /* Default-568h@2x.png in Resources */,
 				3636EDA01F1EAAEF00BB580C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4877F453A00F496772A8CD0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beachbites/Pods-beachbites-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7665841A1DD4626978773E7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beachbites/Pods-beachbites-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		879CFB4EDF20907BE18B7570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3636ED931F1EAAEF00BB580C /* Sources */ = {
@@ -261,26 +356,38 @@
 		};
 		3636EDAA1F1EAAEF00BB580C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCF068837BC2E8A8C25E451 /* Pods-beachbites.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = beachbites/beachbites.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 24N45J8FZG;
 				INFOPLIST_FILE = beachbites/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.csulb.beachbites.beachbites;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csulb.beachbites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3636EDAB1F1EAAEF00BB580C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A357A3C3794DAED263746AC /* Pods-beachbites.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = beachbites/beachbites.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 24N45J8FZG;
 				INFOPLIST_FILE = beachbites/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.csulb.beachbites.beachbites;
+				PRODUCT_BUNDLE_IDENTIFIER = com.csulb.beachbites;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +411,7 @@
 				3636EDAB1F1EAAEF00BB580C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
