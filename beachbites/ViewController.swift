@@ -7,24 +7,33 @@
 //
 
 import UIKit
+import FirebaseMessaging
+
 
 class ViewController: UIViewController {
     
     
-    
+   
     
     @IBOutlet weak var webView: UIWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        NotificationCenter.default.addObserver(self, selector: #selector(applicationWillEnterForeground), name: .UIApplicationWillEnterForeground, object: nil)
+
         let bitesURL = URL(string: "https://its-svcmgmt01.its.csulb.edu/bites/")
-        
+       
         webView.loadRequest(URLRequest(url: bitesURL!))
-        
-        
-    }
-    
-    
+         
+
+}
+func applicationWillEnterForeground(){
+
+self.webView.reload()
+print("WebView has Reloaded!")
+}
+
+     
 }
 
