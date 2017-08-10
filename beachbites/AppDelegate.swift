@@ -154,7 +154,7 @@ extension AppDelegate : MessagingDelegate {
    
 //subscribe to topic after token registration
 
-   Messaging.messaging().subscribe(toTopic: "/topics/chewables")
+   Messaging.messaging().subscribe(toTopic: "/topics/nibble_notifications")
    print("We have topic registration!")
   }
   // [END refresh_token]
