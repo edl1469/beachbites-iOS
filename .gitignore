@@ -1,1 +1,4 @@
-beachbites.xcodeproj
+beachbites.xcodeproj/*
+beachbites.xcworkspace/*
+Pods/*
+
